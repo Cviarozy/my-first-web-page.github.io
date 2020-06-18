@@ -1,32 +1,38 @@
 body {
-  background: #ee9ca7;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  font-family: arial;
+  background-image: url(images/banniere);
+    /* Chrome 10-25, Safari 5.1-6 */
+  font-family: poiret One;
   margin: 0px;
 }
 
 h1 {
-  font-family: 'Pacifico', cursive;
-  font-size: 32px;
+  font-family: 'Poiret One', cursive;
+  font-size: 90px;
 }
-
-h2, h3, h4 {
-  font-family: 'Pacifico', cursive;
-  font-size: 28px;
+;
 }
 
 a, a:hover {
   text-decoration: none;
 }
 
+.btn-success {
+    color: #fff;
+    background-color: #0A0A0A;
+    border-color: #0A0A0A;
+}
+
 p, ul, ol {
   font-size: 20px;
 }
 
+.banner {
+  background-image: url('images/banniere.jpg')!important
+  }
+
 .cadre {
-  background: #E2F3DC;
-  border: 3px solid #C1E6B6;
+  background: #FAEBF7;
+  border: 3px solid #FCF3FB;
   margin: 20px 100px;
   padding: 30px 70px;
   border-radius: 5px;
@@ -38,7 +44,7 @@ p, ul, ol {
   height: 300px;
   object-fit: cover;
   border-radius: 50%;
-  box-shadow: 5px 5px 10px grey;
+  
 }
 
 .text-center {
@@ -50,7 +56,7 @@ p, ul, ol {
 }
 
 .color-green {
-  color: #458D2E;
+  color: #black;
 }
 
 .btn-pink {
@@ -70,7 +76,8 @@ p, ul, ol {
 
 
 .logo {
-  height: 60px;
+  height: 5px;
+  width: 10px;
   margin: 5px;
 }
 
@@ -78,7 +85,7 @@ p, ul, ol {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #E2F3DC;
+  background: white;
 }
 
 .links {
@@ -105,19 +112,21 @@ p, ul, ol {
 .line-light {
   height: 5px;
   width: 20%;
-  background: #EE9CA7;
+  background: black
+;
 }
 
 .line-medium {
   height: 5px;
   width: 30%;
-  background: #C86472;
+  background: black
+;
 }
 
 .line-hard {
   height: 5px;
   width: 50%;
-  background: #9F3442;
+  background: black;
 }
 
 
@@ -154,7 +163,7 @@ p, ul, ol {
 
 .socials {
   font-size: 40px;
-  color: green;
+  color: black;
 }
 
 #mc_embed_signup {
@@ -173,7 +182,7 @@ p, ul, ol {
   margin: 0;
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 32px;
+  font-size: 70px;
   font-weight: bold;
 }
 
@@ -201,7 +210,7 @@ body {
   border-top: 5px solid white;
   border-bottom: 2px solid white;
   height: 200px;
-  background: #E2F3DC;                  /*modiffié*/
+  background: #FAEBF7;                  /*modiffié*/
   background-size: 15px 15px;
   background-position: 0 0, 30px 30px;
   width: 100%;
